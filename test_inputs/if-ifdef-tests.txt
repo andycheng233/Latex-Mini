@@ -1,0 +1,22 @@
+% IF IS EMPTY
+\if{}{failure}{success}
+
+% THEN IS EMPTY
+\if{COND}{}{failure}
+
+% ELSE IS EMPTY
+\if{COND}{failure}{}
+
+% NESTED IF INSIDE OF THEN
+\if{COND}{\if{COND}{success}{failure}}{failure}
+
+% IFDEF WITH NONEXISTENT MACRO
+\ifdef{NOMACRO}{failure}{success}
+
+% NESTED IFDEF INSIDE OF THEN
+\def{test}{}
+\if{COND}{\ifdef{test}{success}{failure}}{failure}
+\undef{test}
+
+% IF WITH NESTED BRACES
+\if{{{{}}}}{THEN}{ELSE}

@@ -1,0 +1,9 @@
+\def{myMacro}{value = #}
+
+\myMacro{
+    this
+    goes
+    onto
+    multiple
+    lines
+}

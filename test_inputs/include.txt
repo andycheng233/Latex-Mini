@@ -1,0 +1,3 @@
+\def{l1}{Line 1}
+\include{../test-inputs/include.1\}.txt}
+\l1{hihi}

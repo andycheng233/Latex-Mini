@@ -1,0 +1,18 @@
+% TEST THE 6 BASIC MACRO FUNCTIONS FROM SPEC (No include)
+
+Defining the macro "test". \def{test}{success}
+
+Printing macro "test": \test{}
+
+Testing if-then: \if{yes}{success}{failure}
+
+Testing if-else: \if{}{failure}{success}
+
+Testing ifdef: \if{test}{success}{failure}
+
+Testing ifdef for undefined macro: \if{notest}{failure}{success}
+
+\def{b}{failure}
+Testing expandafter: \expandafter{\b{}}{\undef{b}\def{b}{success}}
+
+Undefining the macro "test". \undef{test}

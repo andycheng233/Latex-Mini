@@ -1,0 +1,24 @@
+% DEF WITH EMPTY VALUE
+\def{a}{}
+\a{}
+
+% DEF WITH ALPHANUMERIC NAME
+\def{abc123}{success}
+\abc123{}
+
+% SPECIAL CHARS IN VALUE
+\def{b}{\{\}\%\#}
+\b{}
+
+% RECURSIVE MACRO DEFINITION
+\def{r1}{\def{r2}{success}}
+\r1{}
+\r2{}
+
+% UNDEFINING MACRO AND REDEFINING IT
+\undef{a}
+\def{a}{redefined a}
+
+% MULTIPLE ESCAPED BACKSLASHES IN VALUE
+\def{c}{\\\\\\}
+\c{}

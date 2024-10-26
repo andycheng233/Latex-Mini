@@ -1,0 +1,4 @@
+\def{A}{aa}
+\def{B}{b\A{}b}
+\def{C}{c\B{}c}
+\C{} done.

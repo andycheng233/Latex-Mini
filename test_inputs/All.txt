@@ -1,0 +1,5 @@
+\def{prefix}{1}\def{suffix}{2}\if{}{\pre}{\suf}fix{}
+\def{hi}{\def{Hello}}\hi{}{sup}\Hello{}
+\expandafter{}{\\}}
+%
+\%hello

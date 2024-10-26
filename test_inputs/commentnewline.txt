@@ -1,0 +1,8 @@
+A list of values:
+\def{MACRO}{VALUE = #}
+\MACRO{1} 
+\MACRO{2}
+\MACRO{3} % ignore this comment
+\MACRO{4}
+% ignore this comment
+\MACRO{5}

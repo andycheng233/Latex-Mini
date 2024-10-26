@@ -1,0 +1,2 @@
+% DEFINING A MACRO WITH EMPTY STRING NAME
+\def{}{failure}

@@ -1,0 +1,3 @@
+% DEFINE A MACRO IN AFTER, THEN UNDEFINE AND REDEFINE IN BEFORE
+
+\expandafter{\undef{MACRO}\def{MACRO}{success}}{\def{MACRO}{failure}}

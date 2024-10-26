@@ -1,0 +1,24 @@
+% INCLUDE FILE WITH ESCAPED CHARS BUT NO MACROS: in1.txt
+\include{./include-files/in1.txt}
+
+% INCLUDE FILE WITH ONLY COMMENTS: in2.txt
+\include{./include-files/in2.txt}
+
+% INCLUDE FILE WITH DEFS: in3.txt
+\include{./include-files/in3.txt}
+\MACRO{}
+\undef{MACRO}
+
+% CHAINED INCLUDES: in4.txt
+\include{./include-files/in4.txt}
+\chaintest{}
+\undef{chaintest}
+
+% INCLUDE EMPTY FILE: in5.txt
+\include{./include-files/in5.txt}
+
+% INCLUDE INSIDE OF DEF: in6.txt
+\def{inc}{\include{./include-files/in6.txt}}
+\inc{}
+\customInclude{}
+

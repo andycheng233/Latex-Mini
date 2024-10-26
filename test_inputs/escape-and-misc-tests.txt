@@ -1,0 +1,25 @@
+% SPECIAL CHAR FOLLOWED BY NON-ALPHANUMERIC
+\\test \%more
+
+% ESCAPED BACKSLASH AT END
+test\\
+
+% NESTED EXPANDAFTER
+\expandafter{\MACRO{}}{\expandafter{\def{MACRO}{success}}{\expandafter{\undef{MACRO}}{\def{MACRO}{original}}}}
+
+% MACRO WITH ESCAPED SPECIAL CHARS
+\def{A}{\%\{test\}\#}
+\A{}
+\undef{A}
+
+% LONG MACRO NAME
+\def{qrtyuiopasdfghjklzxcvbnmqwertyuioplkjhgfsazxcvbnmqwaesrdtfyguhijoksxdcfvghbjafdsghjkqwftguyhasdujfadfaghiuqhiuwehfiuqhfdjsahfjks18732hfdskajhfawg8iugq2iuf}{success}
+\qrtyuiopasdfghjklzxcvbnmqwertyuioplkjhgfsazxcvbnmqwaesrdtfyguhijoksxdcfvghbjafdsghjkqwftguyhasdujfadfaghiuqhiuwehfiuqhfdjsahfjks18732hfdskajhfawg8iugq2iuf{}
+
+% ESCAPED COMMENTS
+%% comment 1 
+%% comment 2
+
+% BRACE BALANCING USER DEFINED MACRO
+\def{c}{success}
+\c{{{}}}

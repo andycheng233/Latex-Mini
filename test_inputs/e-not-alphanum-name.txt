@@ -1,0 +1,3 @@
+% DEFINING A MACRO WITH A NON ALPHANUMERIC NAME
+\def{hi!}{failure}
+\hi!{}

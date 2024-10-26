@@ -1,0 +1,2 @@
+\def{hello}{unbalanced braces%}
+\hello{yo}

@@ -1,0 +1,3 @@
+This is plain text!
+This has an escape: \#\{\}\\\%hehe
+This has an escape of a non-alphanumeric character: \*

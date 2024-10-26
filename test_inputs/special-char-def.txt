@@ -1,0 +1,4 @@
+% DEF MACRO WITH SPECIAL CHARACTERS IN VALUE
+
+Defining macro "test" = "#\%": \def{test}{\#\%}
+Expecting "#\%": \test{}

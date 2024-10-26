@@ -1,0 +1,4 @@
+% ERROR WHEN REDEFINING AN EXISTING MACRO
+
+Defining the macro "test": \def{test}{success}
+Redefining the macro "test": \def{test}{failure}

@@ -1,0 +1,3 @@
+\def{A}{To escape a # precede it by a backslash}
+\def{B}{To escape a # precede it by a backslash}
+\def{C}{To escape a # precede it by a backslash}

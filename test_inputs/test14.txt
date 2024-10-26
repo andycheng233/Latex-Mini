@@ -1,0 +1,2 @@
+\def{escape}{To escape a # precede it by a backslash}
+\escape{{}

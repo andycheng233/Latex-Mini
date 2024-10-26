@@ -1,0 +1,5 @@
+RUNNING FROM A FILE WITH A SPECIAL CHARACTER IN IT
+\l1{hihi}
+\undef{l1}
+\def{l1}{Line 2}
+

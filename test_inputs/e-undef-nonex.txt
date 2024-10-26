@@ -1,0 +1,2 @@
+% UNDEFINING A NON-EXISTENT MACRO
+\undef{failure}

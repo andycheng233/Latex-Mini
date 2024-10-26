@@ -1,0 +1,10 @@
+This line should not have a percent.% DO NOT SHOW THIS TEXT
+
+This line SHOULD have a percent.\% Yay!
+This line should not have a percent, but should have a backslash.\\%DO NOT SHOW THIS TEXT
+
+Wait for it...%dgoghfsg
+                       This line should have no whitespace before it.
+
+\def{end}{That's it! #}
+\end{Yay!}
